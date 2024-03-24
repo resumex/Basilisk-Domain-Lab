@@ -1,5 +1,5 @@
 # Make-A-DC
-Make a DC and fill it with realistic user objects based on https://randomuser.me/
+Create a domain controller and fill it with realistic user objects based on https://randomuser.me/
 
 The script will build a DC and continue running after the required reboot to fill the domain with users. Each component can be run separately.
 
