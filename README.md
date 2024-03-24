@@ -5,7 +5,7 @@ The script will build a DC and continue running after the required reboot to fil
 
 Flags:
 
-`domain` - Specify the name of the domain to create, if left blank the script will use the domain of the localhost.
+`domain` - Specify the name of the domain to create, if left blank the script will use the domain of the localhost. Only required for building a new domain.
 
 `users` - Specify the number of users to create (1-1000)
 
