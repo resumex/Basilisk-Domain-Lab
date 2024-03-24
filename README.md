@@ -3,7 +3,7 @@ Create a domain controller and fill it with realistic user objects based on http
 
 The script will build a DC and continue running after the required reboot to fill the domain with users. Each component can be run separately.
 
-Flags:
+## Parameters:
 
 `domain` - Specify the name of the domain to create, if left blank the script will use the domain of the localhost. Only required for building a new domain.
 
@@ -13,7 +13,7 @@ Flags:
 
 `nat` - Specify the nationality of the users you are creating. https://randomuser.me relies on this for correct address formatting. Default value is `US`
 
-Examples:
+## Examples:
 
 `PS C:\>: Make-A-DC.ps1 -users 22`
 
