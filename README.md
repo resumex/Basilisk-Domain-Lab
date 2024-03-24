@@ -11,7 +11,7 @@ Flags:
 
 `co` - Specify the company name to be used in the AD users' profile
 
-`nat` - Specify the nationality of the users you are creating. randomuser.me relies on this for correct address formatting. Default value is `US`
+`nat` - Specify the nationality of the users you are creating. https://randomuser.me relies on this for correct address formatting. Default value is `US`
 
 Examples:
 
