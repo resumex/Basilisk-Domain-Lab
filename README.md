@@ -17,7 +17,7 @@ Examples:
 
 `PS C:\>: Make-A-DC.ps1 -users 22`
 
-Creates 22 random users and inserts them into the domain of localhost.
+Creates 22 random user accounts and inserts them into the domain of the localhost the script is running on.
 
 `PS C:\>: Make-A-DC.ps1 -users 18 -co "Apple Computer" -domain "Test.local"`
 
