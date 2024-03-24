@@ -39,7 +39,8 @@ Created 22 random users and inserts them into the domain of localhost.
 
 .EXAMPLE
 PS C:\>: Make-A-DC.ps1 -NumUsers 18 -CompanyName "Apple Computer" -domain "Test.local"
-Creates 18 AD user accounts in the Test.local domain with Apple Computer as the Company Name under Organization
+Creates the test.local domain, then creates 18 random user accounts with Apple Computer as the Company Name under the Organization user attribute.
+
 #>
 
 [CmdletBinding()]
