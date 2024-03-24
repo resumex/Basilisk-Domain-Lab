@@ -7,7 +7,7 @@ Last Updated Mar 24 2024
 
 .LINK
 https://randomuser.me/
-https://github.com/resumex/Make-A-DC/tree/main
+https://github.com/resumex/Make-A-DC/
 
 .DESCRIPTION
 Installs server roles and performs a DC promo, then queries randomuser.me to generate user information and creates an Active Directory user based on each of those results.
