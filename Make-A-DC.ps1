@@ -105,7 +105,6 @@ else {
 Function script:Set-Environment {
 $RandomUsersArr = New-Object System.Collections.ArrayList
 $Date = (Get-Date -Format (Get-Culture).DateTimeFormat.ShortDatePattern) -replace '/','.'
-#$DesktopPath = [Environment]::GetFolderPath("Desktop")
   Try {
     Import-Module ActiveDirectory -ErrorAction Stop
   }
