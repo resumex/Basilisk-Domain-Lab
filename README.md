@@ -25,4 +25,4 @@ Creates the `test.local` domain, then creates 18 random user accounts with `Appl
 
 `PS C:\>: Make-A-DC.ps1 -domain test.local`
 
-Installs the required AD roles on the local machine, creating a DC for the domain test.local, but will not create any users.
+Installs the required AD roles on the local machine, creating a DC for the domain `test.local`, but will not create any users.
