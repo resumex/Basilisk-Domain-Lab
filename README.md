@@ -12,6 +12,8 @@ The module's functions will build a DC and continue running after the required r
 
 ### `Set-Domain`
 
+Install and configure the Active Directory Domain Services roles, and make the current local machine a domain controller.
+
 #### Parameters - Required*
 
 `domain`* - Specifies the name of the domain
@@ -25,6 +27,10 @@ The module's functions will build a DC and continue running after the required r
 ---
 
 ### `Set-RandomUsers`
+
+Insert a specified number of users into the domain. The names and some metadata of the users are randomly generated based on https://randomuser.me.
+
+A CSV export of all users created will be placed in the current working directory.
 
 #### Parameters - Required*
 
