@@ -34,7 +34,7 @@ A CSV export of all users created will be placed in the current working director
 
 #### Parameters - Required*
 
-`users`* - Specifies the name of the domain
+`users`* - Specifies the number of users to add to the domain
 
 `company` - Specify the company name to be used in the AD users' profile
 
