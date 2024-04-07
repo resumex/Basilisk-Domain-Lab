@@ -6,7 +6,7 @@ The script will build a DC and continue running after the required reboot to fil
 ## Instructions:
 
 1. Clone repository
-2. `Import-Module` C:\path\to\RiceLab.psd1
+2. `Import-Module C:\path\to\RiceLab.psd1`
 
 ## Commands
 
