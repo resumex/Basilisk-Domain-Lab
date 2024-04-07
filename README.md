@@ -1,7 +1,7 @@
 # Basilisk Domain Lab
 Create a domain controller and fill it with realistic user objects based on https://randomuser.me/
 
-The script will build a DC and continue running after the required reboot to fill the domain with users. Each component can be run separately.
+The module's functions will build a DC and continue running after the required reboot to fill the domain with users. Each component can be run separately to build a DC with no users or add users to an existing domain ad hoc.
 
 ## Instructions:
 
