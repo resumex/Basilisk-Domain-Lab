@@ -1,4 +1,4 @@
-# Rice Domain Lab
+# Basilisk Domain Lab
 Create a domain controller and fill it with realistic user objects based on https://randomuser.me/
 
 The script will build a DC and continue running after the required reboot to fill the domain with users. Each component can be run separately.
@@ -6,7 +6,7 @@ The script will build a DC and continue running after the required reboot to fil
 ## Instructions:
 
 1. Clone repository
-2. `Import-Module C:\path\to\RiceLab.psd1`
+2. `Import-Module C:\path\to\BasiliskLab.psd1`
 
 ## Commands
 
@@ -36,7 +36,7 @@ The script will build a DC and continue running after the required reboot to fil
 
 ## Examples:
 
-`PS C:\>: Import-Module .\RiceLab.psd1`
+`PS C:\>: Import-Module .\BasiliskLab.psd1`
 
 Imports the module into the current PowerShell session.
 

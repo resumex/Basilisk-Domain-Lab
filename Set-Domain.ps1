@@ -40,7 +40,7 @@ Function Set-Domain {
     if ($Numusers -ne $null -and $variable -ne '') {
         # Create a scheduled task for the next user logon
         # The script will re-run at logon without the domain parameter, while retaining the other parameter values specified during the initial run.
-        $action = New-ScheduledTaskAction -Execute 'Powershell' -WorkingDirectory "$PWD" -Argument "Import-Module $PWD\RiceLab.psd1; Set-RandomUsers -users $NumUsers -co $CompanyName -nat $Nationalities"
+        $action = New-ScheduledTaskAction -Execute 'Powershell' -WorkingDirectory "$PWD" -Argument "Import-Module $PWD\BasiliskLab.psd1; Set-RandomUsers -users $NumUsers -co $CompanyName -nat $Nationalities"
         $trigger = New-ScheduledTaskTrigger -AtLogon 
         $principal = New-ScheduledTaskPrincipal -UserID "NT AUTHORITY\SYSTEM" -LogonType ServiceAccount -RunLevel Highest
         Register-ScheduledTask -TaskName Insert-Users -Trigger $trigger -Action $action -Principal $principal
