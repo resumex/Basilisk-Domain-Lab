@@ -18,6 +18,8 @@ Install and configure the Active Directory Domain Services roles, and make the c
 
 `domain`* - Specifies the name of the domain
 
+The following will run `Set-RandomUsers` as a scheduled task after reboot when specified with `Set-Domain`
+
 `users` - Specifies the number of users to add to the domain
 
 `company` - Specify the company name to be used in the AD users' profile
