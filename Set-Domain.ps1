@@ -37,7 +37,7 @@ Function Set-Domain {
         -Force `
         -Verbose *> $null
 
-    if ($Numusers -ne $null -and $variable -ne '') {
+    if ($Numusers -ne $null -and $Numusers -ne '') {
         # Create a scheduled task for the next user logon
         # The script will re-run at logon without the domain parameter, while retaining the other parameter values specified during the initial run.
         $action = New-ScheduledTaskAction -Execute 'Powershell' -WorkingDirectory "$PWD" -Argument "Import-Module $PWD\BasiliskLab.psd1; Set-RandomUsers -users $NumUsers -co $CompanyName -nat $Nationalities"
